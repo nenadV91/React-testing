@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import {expect} from 'chai';
+import {mount, shallow, render} from 'enzyme';
+import ${1:${ComponentName}} from '${1:${ComponentName}}';
+
+describe('${1:${ComponentName}}', () => {
+	describe('layout', () => {
+		let component = render(<${1:${ComponentName}} />);
+
+		it('...', () => {
+		
+		});
+	});
+
+	describe('functionality', () => {
+		let component = mount(<${1:${ComponentName}} />);
+
+		it('...', () => {
+
+		});
+	});
+});
+
+]]></content>
+    <tabTrigger>tce</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>Test: chai-enzyme</description>
+</snippet>
