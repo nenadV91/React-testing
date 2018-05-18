@@ -10,11 +10,9 @@ module.exports = {
 }
 ```
 
-> **testMatch** - set tests directory
-
-> **setupTestFrameworkScriptFile** - tests setup file that runs before tests
-
-> **modulePaths** - Add modules location so you can use `import App from "App"` instead of `import App from "../../src/components/App"`
+- **testMatch** - set tests directory
+- **setupTestFrameworkScriptFile** - tests setup file that runs before tests
+- **modulePaths** - Add modules location so you can use `import App from "App"` instead of `import App from "../../src/components/App"`
 
 &nbsp;
 Test setup file `testSetup.js`
